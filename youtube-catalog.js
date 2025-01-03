@@ -1,4 +1,4 @@
-const API_KEY = 'YOUR_NEW_API_KEY';
+const API_KEY = process.env.YOUTUBE_API_KEY || 'YOUR_API_KEY';
 const CHANNEL_ID = 'UCSRaIF5ziUVYCdsjDFiNosw';
 
 async function fetchChannelVideos() {
